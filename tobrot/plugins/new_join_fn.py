@@ -10,7 +10,7 @@ async def new_join_f(client, message):
     chat_type = message.chat.type
     if chat_type != "private":
         await message.reply_text(
-            f"""<b>🙋🏻‍♂️ Hello dear!\n\n Welcome to Leech Group</b>\n\n<b>Current CHAT ID: <code>{message.chat.id}</code>""",
+            f"""<b>🙋🏻‍♂️ Hello dear!\n\nWelcome to NSFW Leech Group\n\nHere You Can Leech 🔞 Contents 😌\n\nRead Rules To Stay Here</b>""",
             parse_mode="html",
             reply_markup=InlineKeyboardMarkup(
                 [
